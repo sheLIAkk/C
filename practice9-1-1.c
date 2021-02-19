@@ -7,7 +7,6 @@
 int getop(char []); // 変数名入れなくてもいいやつ
 void push(double);
 double pop(void);
-int sp = 0;
 
 /* 逆ポーランド電卓 */
 int main () {
@@ -54,7 +53,7 @@ int main () {
 
 #define MAXVAL 100 // valスタックの最大の深さ
 
-
+int sp = 0;
 double val[MAXVAL];
 
 /* push: fを値スタックにプッシュする */
