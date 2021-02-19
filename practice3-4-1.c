@@ -1,3 +1,4 @@
+// ファイル名practice3-4だとシンタックスハイライトが死んだ、意味わからん
 #include <stdio.h>
 
 #define IN  1 // 単語の中
